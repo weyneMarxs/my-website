@@ -203,6 +203,7 @@ body {
 .about .info p {
   color: #ccc;
   font-size: 14px;
+  line-height: 20px;
 }
 
 .about .info button {
@@ -423,7 +424,7 @@ footer .cols .news-col form button i {
   footer .start {
     width: 90%;
     left: 5%;
-    top: -20%;
+    top: -10%;
   }
 
   footer .cols {
@@ -469,6 +470,10 @@ footer .cols .news-col form button i {
   .about {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .about .info h3 {
+    text-align: center;
   }
 }
 
