@@ -100,7 +100,7 @@ body {
 }
 
 .guarantee {
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 0 50px;
   display: flex;
   flex-wrap: nowrap;
@@ -426,11 +426,12 @@ footer .cols .news-col form button i {
     top: -20%;
   }
 
-  /* footer .cols {
+  footer .cols {
     flex-wrap: wrap;
-  } */
+  }
 
-  /* footer .cols .about-col {
+
+  footer .cols .about-col {
     flex-basis: 50%;
   }
 
@@ -440,7 +441,7 @@ footer .cols .news-col form button i {
 
   footer .cols .news-col {
     flex-basis: 50%;
-  } */
+  }
 
 }
 
@@ -478,5 +479,87 @@ footer .cols .news-col form button i {
 
   .navbar h2 {
     display: none;
+  }
+
+  .navbar ul li a {
+    font-size: 14px;
+  }
+
+  .main {
+    margin-top: 50px;
+    height: 320px;
+    justify-content: start;
+  }
+
+  .main h4 {
+    font-size: 20px;
+  }
+
+  .main p.title {
+    font-size: 28px;
+  }
+
+  .main p.subtitle {
+    font-size: 12px;
+  }
+
+  .main img {
+    margin-top: 40px;
+    width: 150px;
+    height: 130px;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skills .right {
+    justify-content: space-between;
+  }
+
+  .skills .left .info h3 {
+    font-size: 20px;
+  }
+
+  footer .start {
+    top: -8%;
+  }
+
+  footer .start p {
+    display: none;
+  }
+
+  footer .cols .about-col {
+    flex-basis: 100%;
+    margin-bottom: 40px;
+  }
+
+  footer .cols .links-col {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer .cols .news-col {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .main p.title {
+    font-size: 18px;
+  }
+
+  .main p.subtitle {
+    font-size: 10px;
+  }
+
+  .guarantee .item .info h3 {
+    font-size: 20px;
+  }
+
+  .guarantee .item .info p {
+    font-size: 12px;
   }
 }
